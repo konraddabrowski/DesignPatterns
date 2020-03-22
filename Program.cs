@@ -4,6 +4,7 @@ using Arcaim.DesignPatterns.Factory;
 using Arcaim.DesignPatterns.Observer.DotNet;
 using Arcaim.DesignPatterns.Observer.Simple;
 using Arcaim.DesignPatterns.Strategy;
+using Arcaim.DesignPatterns.NullObject;
 
 namespace Arcaim.DesignPatterns
 {
@@ -15,7 +16,8 @@ namespace Arcaim.DesignPatterns
             // ObserverSimpleClient.Run();
             // ObserverDotNetClient.Run();
             // DecoratorClient.Run();
-            SimpleFactoryClient.Run();
+            // SimpleFactoryClient.Run();
+            NullObjectClient.Run();
         }
     }
 }
